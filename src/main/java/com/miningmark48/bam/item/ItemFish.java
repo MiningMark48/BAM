@@ -189,6 +189,34 @@ public class ItemFish extends ItemBAM{
             list.add("Red-Blotched River Stingray");
         }else if(stack.getItem() == ModItems.poFish2){
             list.add("Smooth Back River Stingray");
+        }else if(stack.getItem() == ModItems.asFish4){
+            list.add("American shad");
+        }else if(stack.getItem() == ModItems.acFish3){
+            list.add("Bowfin");
+        }else if(stack.getItem() == ModItems.ccFish){
+            list.add("Carp");
+        }else if(stack.getItem() == ModItems.eaFish){
+            list.add("American Pickerel");
+        }else if(stack.getItem() == ModItems.elFish){
+            list.add("Northern Pike");
+        }else if(stack.getItem() == ModItems.emFish){
+            list.add("Muskellunge");
+        }else if(stack.getItem() == ModItems.ipFish){
+            list.add("Channel catfish");
+        }else if(stack.getItem() == ModItems.lgFish){
+            list.add("Pumpkinseed");
+        }else if(stack.getItem() == ModItems.mdFish2){
+            list.add("Smallmouth Bass");
+        }else if(stack.getItem() == ModItems.maFish){
+            list.add("White perch");
+        }else if(stack.getItem() == ModItems.msFish){
+            list.add("Striped Bass");
+        }else if(stack.getItem() == ModItems.paFish4){
+            list.add("White Crappie");
+        }else if(stack.getItem() == ModItems.stFish){
+            list.add("Brown trout");
+        }else if(stack.getItem() == ModItems.scFish){
+            list.add("Sauger");
         }
 
     }

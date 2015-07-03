@@ -89,6 +89,20 @@ public class ModItems {
     public static final Item pmvFish = new ItemFish().setUnlocalizedName("pmvFish").setTextureName(Reference.MOD_ID + ":pmvFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item poFish = new ItemFish().setUnlocalizedName("poFish").setTextureName(Reference.MOD_ID + ":poFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item poFish2 = new ItemFish().setUnlocalizedName("poFish2").setTextureName(Reference.MOD_ID + ":poFish2").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item asFish4 = new ItemFish().setUnlocalizedName("asFish4").setTextureName(Reference.MOD_ID + ":asFish4").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item acFish3 = new ItemFish().setUnlocalizedName("acFish3").setTextureName(Reference.MOD_ID + ":acFish3").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item ccFish = new ItemFish().setUnlocalizedName("ccFish").setTextureName(Reference.MOD_ID + ":ccFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item eaFish = new ItemFish().setUnlocalizedName("eaFish").setTextureName(Reference.MOD_ID + ":eaFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item elFish = new ItemFish().setUnlocalizedName("elFish").setTextureName(Reference.MOD_ID + ":elFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item emFish = new ItemFish().setUnlocalizedName("emFish").setTextureName(Reference.MOD_ID + ":emFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item ipFish = new ItemFish().setUnlocalizedName("ipFish").setTextureName(Reference.MOD_ID + ":ipFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item lgFish = new ItemFish().setUnlocalizedName("lgFish").setTextureName(Reference.MOD_ID + ":lgFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item mdFish2 = new ItemFish().setUnlocalizedName("mdFish2").setTextureName(Reference.MOD_ID + ":mdFish2").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item maFish = new ItemFish().setUnlocalizedName("maFish").setTextureName(Reference.MOD_ID + ":maFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item msFish = new ItemFish().setUnlocalizedName("msFish").setTextureName(Reference.MOD_ID + ":msFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item paFish4 = new ItemFish().setUnlocalizedName("paFish4").setTextureName(Reference.MOD_ID + ":paFish4").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item stFish = new ItemFish().setUnlocalizedName("stFish").setTextureName(Reference.MOD_ID + ":stFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item scFish = new ItemFish().setUnlocalizedName("scFish").setTextureName(Reference.MOD_ID + ":scFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
     //Rods
     public static final Item whiteRod = new ItemWhiteRod().setUnlocalizedName("whiteRod").setTextureName(Reference.MOD_ID + ":whiteRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
@@ -177,6 +191,20 @@ public class ModItems {
         GameRegistry.registerItem(pmvFish, "pmvFish");
         GameRegistry.registerItem(poFish, "poFish");
         GameRegistry.registerItem(poFish2, "poFish2");
+        GameRegistry.registerItem(asFish4, "asFish4");
+        GameRegistry.registerItem(acFish3, "acFish3");
+        GameRegistry.registerItem(ccFish, "ccFish");
+        GameRegistry.registerItem(eaFish, "eaFish");
+        GameRegistry.registerItem(elFish, "elFish");
+        GameRegistry.registerItem(emFish, "emFish");
+        GameRegistry.registerItem(ipFish, "ipFish");
+        GameRegistry.registerItem(lgFish, "lgFish");
+        GameRegistry.registerItem(mdFish2, "md2Fish2");
+        GameRegistry.registerItem(maFish, "maFish");
+        GameRegistry.registerItem(msFish, "msFish");
+        GameRegistry.registerItem(paFish4, "paFish4");
+        GameRegistry.registerItem(stFish, "stFish");
+        GameRegistry.registerItem(scFish, "scFish");
 
         GameRegistry.registerItem(whiteRod, "whiteRod");
         GameRegistry.registerItem(greyRod, "greyRod");
