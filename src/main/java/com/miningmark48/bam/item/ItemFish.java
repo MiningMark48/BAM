@@ -217,7 +217,54 @@ public class ItemFish extends ItemBAM{
             list.add("Brown trout");
         }else if(stack.getItem() == ModItems.scFish){
             list.add("Sauger");
+        }else if(stack.getItem() == ModItems.aFish){
+            list.add("Sturgeon");
+        }else if(stack.getItem() == ModItems.arFish4){
+            list.add("Rock Bass");
+        }else if(stack.getItem() == ModItems.caFish){
+            list.add("Snakehead");
+        }else if(stack.getItem() == ModItems.emFish2){
+            list.add("Tiger Muskellunge");
+        }else if(stack.getItem() == ModItems.enFish){
+            list.add("Chain Pickerel");
+        }else if(stack.getItem() == ModItems.laFish){
+            list.add("Red Breast Sunfish");
+        }else if(stack.getItem() == ModItems.lmFish){
+            list.add("Bluegill");
+        }else if(stack.getItem() == ModItems.msFish2){
+            list.add("Largemouth Bass");
+        }else if(stack.getItem() == ModItems.mcFish3){
+            list.add("White Bass");
+        }else if(stack.getItem() == ModItems.pfFish){
+            list.add("Yellow Perch");
+        }else if(stack.getItem() == ModItems.pnFish4){
+            list.add("Black Crappie");
+        }else if(stack.getItem() == ModItems.poFish3){
+            list.add("Flathead Catfish");
+        }else if(stack.getItem() == ModItems.sfFish2){
+            list.add("Brook Trout");
+        }else if(stack.getItem() == ModItems.svFish){
+            list.add("Walleye");
+        }else if(stack.getItem() == ModItems.cbFish){
+            list.add("Spinner Shark");
+        }else if(stack.getItem() == ModItems.clFish){
+            list.add("Bull Shark");
+        }else if(stack.getItem() == ModItems.clFish2){
+            list.add("Blacktip Reef Shark");
+        }else if(stack.getItem() == ModItems.ccFish2){
+            list.add("Great White Shark");
+        }else if(stack.getItem() == ModItems.gcFish){
+            list.add("Tiger Shark");
+        }else if(stack.getItem() == ModItems.ioFish){
+            list.add("Longfin Mako Shark");
+        }else if(stack.getItem() == ModItems.ioFish2){
+            list.add("Shortfin Mako Shark");
+        }else if(stack.getItem() == ModItems.nbFish){
+            list.add("Lemon Shark");
+        }else if(stack.getItem() == ModItems.sFish){
+            list.add("HammerHead Shark");
         }
+
 
     }
 
