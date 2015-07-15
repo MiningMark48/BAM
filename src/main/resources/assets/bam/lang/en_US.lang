@@ -120,3 +120,6 @@ item.ioFish.name=Isurus Oxyrinchus
 item.ioFish2.name=Isurus Oxyrinchus
 item.nbFish.name=Negaprion Brevirostris
 item.sFish.name=Sphyrnidae
+
+
+tile.fishWorkbench.name=Fisherman's Workbench

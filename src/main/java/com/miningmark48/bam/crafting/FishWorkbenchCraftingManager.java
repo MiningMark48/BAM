@@ -8,6 +8,8 @@ import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.item.crafting.ShapedRecipes;
+import net.minecraft.item.crafting.ShapelessRecipes;
 import net.minecraft.world.World;
 
 import java.util.ArrayList;
@@ -39,13 +41,14 @@ public class FishWorkbenchCraftingManager {
 
         //Add Recipes Here
         //this.addShapelessRecipe(new ItemStack(BLOCK/ITEM TO GET, #), FROM THIS BLOCK/ITEM);
-        this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', Items.stick, 'y', Items.stick, 'z', Items.stick});
+        this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', Items.diamond, 'y', Items.emerald, 'z', Items.iron_ingot});
+        this.addRecipe(new ItemStack(Items.fishing_rod, 1), new Object[]{"x", "y", "z", 'x', Items.stick, 'y', Items.iron_ingot, 'z', Items.string});
         this.addShapelessRecipe(new ItemStack(ModItems.lightBlueRod, 1), Items.diamond);
 
         Collections.sort(this.recipes, new FishWorkbenchRecipeSorter(this));
     }
 
-    public FishWorkbenchShapedRecipes addRecipe(ItemStack p_92103_1_, Object ... p_92103_2_)
+    public ShapedRecipes addRecipe(ItemStack p_92103_1_, Object ... p_92103_2_)
     {
         String s = "";
         int i = 0;
@@ -114,7 +117,7 @@ public class FishWorkbenchCraftingManager {
             }
         }
 
-        FishWorkbenchShapedRecipes shapedrecipes = new FishWorkbenchShapedRecipes(j, k, aitemstack, p_92103_1_);
+        ShapedRecipes shapedrecipes = new ShapedRecipes(j, k, aitemstack, p_92103_1_);
         this.recipes.add(shapedrecipes);
         return shapedrecipes;
     }
@@ -141,14 +144,14 @@ public class FishWorkbenchCraftingManager {
             {
                 if (!(object1 instanceof Block))
                 {
-                    throw new RuntimeException("Invalid shapeless recipe!");
+                    throw new RuntimeException("Invalid shapeless recipy!");
                 }
 
                 arraylist.add(new ItemStack((Block)object1));
             }
         }
 
-        this.recipes.add(new FishWorkbenchShapelessRecipes(p_77596_1_, arraylist));
+        this.recipes.add(new ShapelessRecipes(p_77596_1_, arraylist));
     }
 
     public ItemStack findMatchingRecipe(InventoryCrafting p_82787_1_, World p_82787_2_)
@@ -216,5 +219,4 @@ public class FishWorkbenchCraftingManager {
     {
         return this.recipes;
     }
-
 }

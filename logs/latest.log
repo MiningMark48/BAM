@@ -1,46 +1,253 @@
-[16:48:57] [main/INFO]: Setting user: Player338
-[16:49:12] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:49:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
-[16:50:12] [Sound Library Loader/INFO]: Sound engine started
-[16:50:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:50:37] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[16:50:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
-[16:50:45] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[16:50:46] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:50:48] [Sound Library Loader/INFO]: Sound engine started
-[16:54:04] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:54:04] [Server thread/INFO]: Generating keypair
-[16:54:08] [Server thread/INFO]: Preparing start region for level 0
-[16:54:09] [Server thread/INFO]: Preparing spawn area: 0%
-[16:54:11] [Server thread/INFO]: Preparing spawn area: 18%
-[16:54:12] [Server thread/INFO]: Preparing spawn area: 46%
-[16:54:13] [Server thread/INFO]: Preparing spawn area: 80%
-[16:54:15] [Server thread/INFO]: Changing view distance to 2, from 10
-[16:54:18] [Server thread/INFO]: Player338[local:E:90165429] logged in with entity id 230 at (218.95729932148248, 4.0, -312.6362172034883)
-[16:54:18] [Server thread/INFO]: Player338 joined the game
-[16:54:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12383ms behind, skipping 247 tick(s)
-[16:54:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9646ms behind, skipping 192 tick(s)
-[16:54:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2889ms behind, skipping 57 tick(s)
-[16:54:55] [Server thread/INFO]: [Player338: Toggled downfall]
-[16:54:55] [Client thread/INFO]: [CHAT] Toggled downfall
-[16:55:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3967ms behind, skipping 79 tick(s)
-[16:55:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3835ms behind, skipping 76 tick(s)
-[17:02:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2126ms behind, skipping 42 tick(s)
-[17:04:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2496ms behind, skipping 49 tick(s)
-[17:04:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2104ms behind, skipping 42 tick(s)
-[17:05:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6872ms behind, skipping 137 tick(s)
-[17:05:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3674ms behind, skipping 73 tick(s)
-[17:06:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2254ms behind, skipping 45 tick(s)
-[17:06:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2914ms behind, skipping 58 tick(s)
-[17:06:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2153ms behind, skipping 43 tick(s)
-[17:06:36] [Server thread/INFO]: Saving and pausing game...
-[17:06:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:06:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:06:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:06:39] [Server thread/INFO]: [Player338: Toggled downfall]
-[17:06:39] [Client thread/INFO]: [CHAT] Toggled downfall
-[17:06:41] [Server thread/INFO]: Saving and pausing game...
-[17:06:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:06:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[17:06:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[17:21:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2955ms behind, skipping 59 tick(s)
+[19:10:30] [main/INFO]: Setting user: Player427
+[19:10:40] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:11:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
+[19:11:34] [Sound Library Loader/INFO]: Sound engine started
+[19:11:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:11:56] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[19:11:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
+[19:12:02] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[19:12:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:12:05] [Sound Library Loader/INFO]: Sound engine started
+[19:21:04] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:21:04] [Server thread/INFO]: Generating keypair
+[19:21:14] [Server thread/INFO]: Preparing start region for level 0
+[19:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[19:21:19] [Server thread/INFO]: Preparing spawn area: 18%
+[19:21:20] [Server thread/INFO]: Preparing spawn area: 27%
+[19:21:21] [Server thread/INFO]: Preparing spawn area: 40%
+[19:21:22] [Server thread/INFO]: Preparing spawn area: 46%
+[19:21:23] [Server thread/INFO]: Preparing spawn area: 58%
+[19:21:24] [Server thread/INFO]: Preparing spawn area: 84%
+[19:21:26] [Server thread/INFO]: Changing view distance to 2, from 10
+[19:21:27] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:27] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2778ms behind, skipping 55 tick(s)
+[19:21:34] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:34] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:36] [Server thread/INFO]: Player427[local:E:5779aaa7] logged in with entity id 214 at (216.336126665631, 4.0, -302.8658171391867)
+[19:21:36] [Server thread/INFO]: Player427 joined the game
+[19:21:40] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:40] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:45] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:45] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:50] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:50] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:52] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:52] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:54] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:54] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:55] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:55] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:57] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:57] [Server thread/INFO]: [@: Changing to clear weather]
+[19:21:58] [Server thread/INFO]: [@: Set the time to 1000]
+[19:21:58] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:00] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:00] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:01] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:01] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:02] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:02] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:03] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:03] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:05] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:05] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 26716ms behind, skipping 534 tick(s)
+[19:22:08] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:08] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:09] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:09] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2610ms behind, skipping 52 tick(s)
+[19:22:10] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:10] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:12] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:12] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:14] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:14] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:15] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:15] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:17] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:17] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:19] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:19] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:20] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:20] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:21] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:21] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:22] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:22] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:23] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:23] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:25] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:25] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:26] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:26] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:27] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:27] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:28] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:28] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:30] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:30] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:31] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:31] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:32] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:32] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:33] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:34] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8224ms behind, skipping 164 tick(s)
+[19:22:34] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:34] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:35] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:35] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:36] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:36] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:38] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:38] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:39] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:39] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:40] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:40] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:42] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:42] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:43] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:43] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:45] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:45] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:46] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:46] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4335ms behind, skipping 86 tick(s)
+[19:22:50] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:50] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:51] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:51] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:52] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:52] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:53] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:53] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:54] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:54] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:55] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:55] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:57] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:57] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:58] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:58] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:59] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:59] [Server thread/INFO]: [@: Changing to clear weather]
+[19:22:59] [Server thread/INFO]: [@: Set the time to 1000]
+[19:22:59] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:00] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:00] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:01] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:01] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:02] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:02] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5354ms behind, skipping 107 tick(s)
+[19:23:03] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:03] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:04] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:04] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:05] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:05] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:06] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:06] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:07] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:07] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:08] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:08] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:09] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:09] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:10] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:10] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:11] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:11] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:11] [Server thread/INFO]: [@: Set the time to 1000]
+[19:23:11] [Server thread/INFO]: [@: Changing to clear weather]
+[19:23:12] [Server thread/INFO]: Saving and pausing game...
+[19:23:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:23:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:23:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:25:42] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:42] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:43] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:43] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:44] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:44] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:45] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:45] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:46] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:46] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:47] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:47] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:48] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:48] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:49] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:49] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:50] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:50] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:51] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:51] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:52] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:52] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:53] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:53] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:54] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:54] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:55] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:55] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:56] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:56] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:57] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:57] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:58] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:58] [Server thread/INFO]: [@: Changing to clear weather]
+[19:25:59] [Server thread/INFO]: [@: Set the time to 1000]
+[19:25:59] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:00] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:00] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:01] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:01] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:02] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:02] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:03] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:03] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:05] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:05] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:07] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:07] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2241ms behind, skipping 44 tick(s)
+[19:26:08] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:08] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:09] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:09] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:10] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:10] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:11] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:11] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:12] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:12] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:13] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:13] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:14] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:14] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:15] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:15] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:16] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:16] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:17] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:17] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:17] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:17] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:18] [Server thread/INFO]: [@: Set the time to 1000]
+[19:26:18] [Server thread/INFO]: [@: Changing to clear weather]
+[19:26:18] [Server thread/INFO]: Saving and pausing game...
+[19:26:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:26:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:26:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:26:19] [Server thread/INFO]: Stopping server
+[19:26:19] [Server thread/INFO]: Saving players
+[19:26:19] [Server thread/INFO]: Saving worlds
+[19:26:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:26:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:26:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:26:23] [Client thread/INFO]: Stopping!
