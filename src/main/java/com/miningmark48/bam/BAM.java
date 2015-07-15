@@ -1,5 +1,6 @@
 package com.miningmark48.bam;
 
+import com.miningmark48.bam.gui.GuiHandler;
 import com.miningmark48.bam.init.ModBlocks;
 import com.miningmark48.bam.init.ModItems;
 import com.miningmark48.bam.init.Recipes;
@@ -35,6 +36,8 @@ public class BAM {
 
         ModBlocks.init();
         ModItems.init();
+
+        NetworkRegistry.INSTANCE.registerGuiHandler(this, new GuiHandler());
 
         LogHelper.info("Pre-Init Complete!");
     }
