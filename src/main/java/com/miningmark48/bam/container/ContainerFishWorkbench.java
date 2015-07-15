@@ -18,7 +18,7 @@ public class ContainerFishWorkbench extends Container {
     private int posZ;
 
     public ContainerFishWorkbench(InventoryPlayer player, World world, int x, int y, int z){
-        craftMatrix = new InventoryCrafting(this, 3,  1);
+        craftMatrix = new InventoryCrafting(this, 1,  3);
         craftResult = new InventoryCraftResult();
         worldObj = world;
         this.posX = x;

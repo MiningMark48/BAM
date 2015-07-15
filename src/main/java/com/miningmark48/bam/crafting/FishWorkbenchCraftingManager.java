@@ -40,7 +40,7 @@ public class FishWorkbenchCraftingManager {
         //Add Recipes Here
         //this.addShapelessRecipe(new ItemStack(BLOCK/ITEM TO GET, #), FROM THIS BLOCK/ITEM);
         this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', Items.stick, 'y', Items.stick, 'z', Items.stick});
-        this.addShapelessRecipe(new ItemStack(ModItems.lightBlueRod, 1), Items.diamond, Items.emerald, Items.iron_ingot);
+        this.addShapelessRecipe(new ItemStack(ModItems.lightBlueRod, 1), Items.diamond);
 
         Collections.sort(this.recipes, new FishWorkbenchRecipeSorter(this));
     }
