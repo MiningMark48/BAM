@@ -1,5 +1,6 @@
 package com.miningmark48.bam.item;
 
+import com.miningmark48.bam.creativetab.CreativeTabBAM;
 import com.miningmark48.bam.init.ModItems;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,6 +16,7 @@ public class ItemFish extends ItemBAM{
     public ItemFish()
     {
         super();
+        this.setCreativeTab(CreativeTabBAM.BAM_Tab_Fish);
     }
 
     @Override

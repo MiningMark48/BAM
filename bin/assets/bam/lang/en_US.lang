@@ -1,4 +1,5 @@
 itemGroup.bam=Better Aquatics Mod
+itemGroup.bamFish=BAM Fish
 
 item.aaFish.name=Aphyocharax Anisitsi Fish
 item.aaFish2.name=Alcolapia Alcalica Fish
@@ -139,7 +140,7 @@ item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
 
 
-tile.fishWorkbench.name=Fisherman's Workbench
+tile.fishWorkbench.name=Fisherman's Workbench [WIP]
 tile.arsenicOre.name=Arsenic Ore
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore

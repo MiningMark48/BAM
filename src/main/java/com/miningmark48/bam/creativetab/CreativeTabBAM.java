@@ -16,4 +16,11 @@ public class CreativeTabBAM {
 
     };
 
+    public static final CreativeTabs BAM_Tab_Fish = new CreativeTabs(Reference.MOD_ID + ":fish") {
+        @Override
+        public Item getTabIconItem() {
+            return ModItems.blFish;
+        }
+    };
+
 }
