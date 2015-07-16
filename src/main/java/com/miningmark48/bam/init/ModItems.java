@@ -151,6 +151,9 @@ public class ModItems {
     public static final Item tungstenNugget = new ItemNugget().setUnlocalizedName("tungstenNugget").setTextureName(Reference.MOD_ID + ":tungstenNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item arsenicNugget = new ItemNugget().setUnlocalizedName("arsenicNugget").setTextureName(Reference.MOD_ID + ":arsenicNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
+    //Misc
+    public static final Item fishingLine = new ItemBAM().setUnlocalizedName("fishingLine").setTextureName(Reference.MOD_ID + ":fishingLine").setCreativeTab(CreativeTabBAM.BAM_Tab);
+
 
     public static void init() {
 
@@ -292,6 +295,8 @@ public class ModItems {
         GameRegistry.registerItem(silverNugget, "silverNugget");
         GameRegistry.registerItem(tungstenNugget, "tungstenNugget");
         GameRegistry.registerItem(arsenicNugget, "arsenicNugget");
+
+        GameRegistry.registerItem(fishingLine, "fishingLine");
     }
 
 }

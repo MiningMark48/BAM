@@ -41,10 +41,10 @@ public class FishWorkbenchCraftingManager {
 
         //Add Recipes Here
         //this.addShapelessRecipe(new ItemStack(BLOCK/ITEM TO GET, #), FROM THIS BLOCK/ITEM);
-        this.addRecipe(new ItemStack(Items.fishing_rod, 1), new Object[]{"x", "y", "z", 'x', Items.stick, 'y', Blocks.planks, 'z', Items.string});
-        this.addRecipe(new ItemStack(ModItems.whiteRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.whiteToolRod, 'y', ModItems.whiteReel, 'z', Items.string});
-        this.addRecipe(new ItemStack(ModItems.greyRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.greyToolRod, 'y', ModItems.greyReel, 'z', Items.string});
-        this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.lightBlueToolRod, 'y', ModItems.lightBlueReel, 'z', Items.string});
+        this.addRecipe(new ItemStack(Items.fishing_rod, 1), new Object[]{"x", "y", "z", 'x', Items.stick, 'y', Blocks.planks, 'z', ModItems.fishingLine});
+        this.addRecipe(new ItemStack(ModItems.whiteRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.whiteToolRod, 'y', ModItems.whiteReel, 'z', ModItems.fishingLine});
+        this.addRecipe(new ItemStack(ModItems.greyRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.greyToolRod, 'y', ModItems.greyReel, 'z', ModItems.fishingLine});
+        this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.lightBlueToolRod, 'y', ModItems.lightBlueReel, 'z', ModItems.fishingLine});
 
         Collections.sort(this.recipes, new FishWorkbenchRecipeSorter(this));
     }

@@ -139,6 +139,8 @@ item.silverNugget.name=Silver Nugget
 item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
 
+item.fishingLine.name=Fishing Line
+
 
 tile.fishWorkbench.name=Fisherman's Workbench [WIP]
 tile.arsenicOre.name=Arsenic Ore
