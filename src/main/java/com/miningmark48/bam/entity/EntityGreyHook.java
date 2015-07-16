@@ -446,6 +446,8 @@ public class EntityGreyHook extends EntityFishHook{
             return new ItemStack(ModItems.mcFish2);
         }else if(x == 28){
             return new ItemStack(ModItems.mlFish);
+        }else if(x == 29){
+            return new ItemStack(ModItems.lightBlueReel);
         }
         return new ItemStack(Items.fish);
     }

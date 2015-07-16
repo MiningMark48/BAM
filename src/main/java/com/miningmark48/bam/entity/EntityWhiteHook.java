@@ -393,7 +393,7 @@ public class EntityWhiteHook extends EntityFishHook {
     public ItemStack getFishingResult()
     {
         Random rand = new Random();
-        int x = rand.nextInt(14) + 1;
+        int x = rand.nextInt(16) + 1;
 
         if (x == 1){
             return new ItemStack(ModItems.aaFish);
@@ -425,6 +425,8 @@ public class EntityWhiteHook extends EntityFishHook {
             return new ItemStack(ModItems.hhFish2);
         }else if (x == 15){
             return new ItemStack(ModItems.hsFish);
+        }else if (x == 16){
+            return new ItemStack(ModItems.lightBlueToolRod);
         }
         return new ItemStack(Items.fish);
     }

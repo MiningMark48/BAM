@@ -19,11 +19,11 @@ public class Recipes {
             //Tool Rods and Reels
         GameRegistry.addRecipe(new ItemStack(ModItems.whiteToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.dye, 1, 15), 'b', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.greyToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.dye, 1, 8), 'b', new ItemStack(Items.stick));
-        GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.diamond), 'b', new ItemStack(Items.emerald));
+        //GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.diamond), 'b', new ItemStack(Items.emerald));
 
         GameRegistry.addRecipe(new ItemStack(ModItems.whiteReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.dye, 1, 15), 'c', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.greyReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.dye, 1, 8), 'c', new ItemStack(Items.stick));
-        GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.nether_star), 'c', new ItemStack(Items.stick));
+        //GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.nether_star), 'c', new ItemStack(Items.stick));
             //Ingot-Nugget
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.copperNugget, 9), new ItemStack(ModItems.copperIngot));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tinNugget, 9), new ItemStack(ModItems.tinIngot));
