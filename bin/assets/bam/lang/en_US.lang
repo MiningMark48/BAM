@@ -1,5 +1,5 @@
 itemGroup.bam=Better Aquatics Mod
-itemGroup.bamFish=BAM Fish
+itemGroup.bam:fish=Better Aquatics Mod Fish
 
 item.aaFish.name=Aphyocharax Anisitsi Fish
 item.aaFish2.name=Alcolapia Alcalica Fish

@@ -1,10 +1,7 @@
 package com.miningmark48.bam;
 
 import com.miningmark48.bam.gui.GuiHandler;
-import com.miningmark48.bam.init.ModBlocks;
-import com.miningmark48.bam.init.ModItems;
-import com.miningmark48.bam.init.Recipes;
-import com.miningmark48.bam.init.WorldGen;
+import com.miningmark48.bam.init.*;
 import com.miningmark48.bam.proxy.ClientProxy;
 import com.miningmark48.bam.proxy.IProxy;
 import com.miningmark48.bam.reference.Reference;
@@ -47,6 +44,7 @@ public class BAM {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
         Recipes.init();
+        OreDict.init();
         LogHelper.info("Init Complete!");
     }
 
