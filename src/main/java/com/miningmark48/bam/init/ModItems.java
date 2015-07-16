@@ -132,8 +132,21 @@ public class ModItems {
     public static final Item greyRod = new ItemGreyRod().setUnlocalizedName("greyRod").setTextureName(Reference.MOD_ID + ":greyRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
     public static final Item lightBlueRod = new ItemLightBlueRod().setUnlocalizedName("lightBlueRod").setTextureName(Reference.MOD_ID + ":lightBlueRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
 
+    //Ingots/Nuggets
+    public static final Item copperIngot = new ItemIngot().setUnlocalizedName("copperIngot").setTextureName(Reference.MOD_ID + ":copperIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item tinIngot = new ItemIngot().setUnlocalizedName("tinIngot").setTextureName(Reference.MOD_ID + ":tinIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item silverIngot = new ItemIngot().setUnlocalizedName("silverIngot").setTextureName(Reference.MOD_ID + ":silverIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item tungstenIngot = new ItemIngot().setUnlocalizedName("tungstenIngot").setTextureName(Reference.MOD_ID + ":tungstenIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item arsenicIngot = new ItemIngot().setUnlocalizedName("arsenicIngot").setTextureName(Reference.MOD_ID + ":arsenicIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item copperNugget = new ItemNugget().setUnlocalizedName("copperNugget").setTextureName(Reference.MOD_ID + ":copperNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item tinNugget = new ItemNugget().setUnlocalizedName("tinNugget").setTextureName(Reference.MOD_ID + ":tinNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item silverNugget = new ItemNugget().setUnlocalizedName("silverNugget").setTextureName(Reference.MOD_ID + ":silverNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item tungstenNugget = new ItemNugget().setUnlocalizedName("tungstenNugget").setTextureName(Reference.MOD_ID + ":tungstenNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item arsenicNugget = new ItemNugget().setUnlocalizedName("arsenicNugget").setTextureName(Reference.MOD_ID + ":arsenicNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
+
 
     public static void init() {
+
         GameRegistry.registerItem(aaFish, "aaFish");
         GameRegistry.registerItem(aaFish2, "aaFish2");
         GameRegistry.registerItem(aaFish3, "aaFish3");
@@ -255,6 +268,17 @@ public class ModItems {
         GameRegistry.registerItem(whiteRod, "whiteRod");
         GameRegistry.registerItem(greyRod, "greyRod");
         GameRegistry.registerItem(lightBlueRod, "lightBlueRod");
+
+        GameRegistry.registerItem(copperIngot, "copperIngot");
+        GameRegistry.registerItem(tinIngot, "tinIngot");
+        GameRegistry.registerItem(silverIngot, "silverIngot");
+        GameRegistry.registerItem(tungstenIngot, "tungstenIngot");
+        GameRegistry.registerItem(arsenicIngot, "arsenicIngot");
+        GameRegistry.registerItem(copperNugget, "copperNugget");
+        GameRegistry.registerItem(tinNugget, "tinNugget");
+        GameRegistry.registerItem(silverNugget, "silverNugget");
+        GameRegistry.registerItem(tungstenNugget, "tungstenNugget");
+        GameRegistry.registerItem(arsenicNugget, "arsenicNugget");
     }
 
 }

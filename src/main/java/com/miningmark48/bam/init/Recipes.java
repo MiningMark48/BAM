@@ -10,10 +10,29 @@ public class Recipes {
     public static void init(){
 
         //Items
+            //Smelting
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.copperOre), new ItemStack(ModItems.copperIngot, 1),  10f);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.tinOre), new ItemStack(ModItems.tinIngot, 1),  10f);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.silverOre), new ItemStack(ModItems.silverIngot, 1),  10f);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.tungstenOre), new ItemStack(ModItems.tungstenIngot, 1),  10f);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.arsenicOre), new ItemStack(ModItems.arsenicIngot, 1),  10f);
             //Rods
         GameRegistry.addRecipe(new ItemStack(ModItems.whiteRod), "xxx", "xyx", "xxx", 'x', new ItemStack(Items.dye, 1, 15), 'y', new ItemStack(Items.fishing_rod));
         GameRegistry.addRecipe(new ItemStack(ModItems.greyRod), "xxx", "xyx", "xxx", 'x', new ItemStack(Items.dye, 1, 8), 'y', new ItemStack(Items.fishing_rod));
         GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueRod), "xyx", "yzy", "xyx", 'x', new ItemStack(Items.diamond), 'y', new ItemStack(Items.emerald), 'z', new ItemStack(Items.fishing_rod));
+            //Ingot-Nugget
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.copperNugget, 9), new ItemStack(ModItems.copperIngot));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tinNugget, 9), new ItemStack(ModItems.tinIngot));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.silverNugget, 9), new ItemStack(ModItems.silverIngot));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tungstenNugget, 9), new ItemStack(ModItems.tungstenIngot));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.arsenicNugget, 9), new ItemStack(ModItems.arsenicIngot));
+        GameRegistry.addRecipe(new ItemStack(ModItems.copperIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.copperNugget));
+        GameRegistry.addRecipe(new ItemStack(ModItems.tinIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.tinNugget));
+        GameRegistry.addRecipe(new ItemStack(ModItems.silverIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.silverNugget));
+        GameRegistry.addRecipe(new ItemStack(ModItems.tungstenIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.tungstenNugget));
+        GameRegistry.addRecipe(new ItemStack(ModItems.arsenicIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.arsenicNugget));
+
+
         //Blocks
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(Items.iron_ingot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
     }

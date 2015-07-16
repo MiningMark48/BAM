@@ -1,9 +1,5 @@
 itemGroup.bam=Better Aquatics Mod
 
-item.whiteRod.name=White Fishing Rod
-item.greyRod.name=Grey Fishing Rod
-item.lightBlueRod.name=Light Blue Fishing Rod
-
 item.aaFish.name=Aphyocharax Anisitsi Fish
 item.aaFish2.name=Alcolapia Alcalica Fish
 item.aaFish3.name=Aulonocara Albino Fish
@@ -120,6 +116,21 @@ item.ioFish.name=Isurus Oxyrinchus
 item.ioFish2.name=Isurus Oxyrinchus
 item.nbFish.name=Negaprion Brevirostris
 item.sFish.name=Sphyrnidae
+
+item.whiteRod.name=White Fishing Rod
+item.greyRod.name=Grey Fishing Rod
+item.lightBlueRod.name=Light Blue Fishing Rod
+
+item.copperIngot.name=Copper Ingot
+item.tinIngot.name=Tin Ingot
+item.silverIngot.name=Silver Ingot
+item.tungstenIngot.name=Tungsten Ingot
+item.arsenicIngot.name=Arsenic Ingot
+item.copperNugget.name=Copper Nugget
+item.tinIngot.name=Tin Nugget
+item.silverIngot.name=Silver Nugget
+item.tungstenIngot.name=Tungsten Nugget
+item.arsenicIngot.name=Arsenic Nugget
 
 
 tile.fishWorkbench.name=Fisherman's Workbench
