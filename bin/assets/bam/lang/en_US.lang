@@ -120,3 +120,11 @@ item.ioFish.name=Isurus Oxyrinchus
 item.ioFish2.name=Isurus Oxyrinchus
 item.nbFish.name=Negaprion Brevirostris
 item.sFish.name=Sphyrnidae
+
+
+tile.fishWorkbench.name=Fisherman's Workbench
+tile.arsenicOre.name=Arsenic Ore
+tile.copperOre.name=Copper Ore
+tile.tinOre.name=Tin Ore
+tile.tungstenOre.name=Tungsten Ore
+tile.silverOre.name=Silver Ore
