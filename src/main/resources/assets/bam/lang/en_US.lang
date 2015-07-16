@@ -120,6 +120,12 @@ item.sFish.name=Sphyrnidae
 item.whiteRod.name=White Fishing Rod
 item.greyRod.name=Grey Fishing Rod
 item.lightBlueRod.name=Light Blue Fishing Rod
+item.whiteToolRod.name=White Rod
+item.greyToolRod.name=Grey Rod
+item.lightBlueToolRod.name=Light Blue Rod
+item.whiteReel.name=White Reel
+item.greyReel.name=Grey Reel
+item.lightBlueReel.name=Light Blue Reel
 
 item.copperIngot.name=Copper Ingot
 item.tinIngot.name=Tin Ingot
@@ -133,7 +139,7 @@ item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
 
 
-tile.fishWorkbench.name=Fisherman's Workbench
+tile.fishWorkbench.name=Fisherman's Workbench [WIP]
 tile.arsenicOre.name=Arsenic Ore
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore

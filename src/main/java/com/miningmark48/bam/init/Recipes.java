@@ -16,10 +16,14 @@ public class Recipes {
         GameRegistry.addSmelting(new ItemStack(ModBlocks.silverOre), new ItemStack(ModItems.silverIngot, 1),  10f);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.tungstenOre), new ItemStack(ModItems.tungstenIngot, 1),  10f);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.arsenicOre), new ItemStack(ModItems.arsenicIngot, 1),  10f);
-            //Rods
-        GameRegistry.addRecipe(new ItemStack(ModItems.whiteRod), "xxx", "xyx", "xxx", 'x', new ItemStack(Items.dye, 1, 15), 'y', new ItemStack(Items.fishing_rod));
-        GameRegistry.addRecipe(new ItemStack(ModItems.greyRod), "xxx", "xyx", "xxx", 'x', new ItemStack(Items.dye, 1, 8), 'y', new ItemStack(Items.fishing_rod));
-        GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueRod), "xyx", "yzy", "xyx", 'x', new ItemStack(Items.diamond), 'y', new ItemStack(Items.emerald), 'z', new ItemStack(Items.fishing_rod));
+            //Tool Rods and Reels
+        GameRegistry.addRecipe(new ItemStack(ModItems.whiteToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.dye, 1, 15), 'b', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.greyToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.dye, 1, 8), 'b', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueToolRod), " ab", "aba", "ba ", 'a', new ItemStack(Items.diamond), 'b', new ItemStack(Items.emerald));
+
+        GameRegistry.addRecipe(new ItemStack(ModItems.whiteReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.dye, 1, 15), 'c', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.greyReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.dye, 1, 8), 'c', new ItemStack(Items.stick));
+        GameRegistry.addRecipe(new ItemStack(ModItems.lightBlueReel), " ac", "aba", "ca ", 'a', new ItemStack(Items.iron_ingot), 'b', new ItemStack(Items.nether_star), 'c', new ItemStack(Items.stick));
             //Ingot-Nugget
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.copperNugget, 9), new ItemStack(ModItems.copperIngot));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tinNugget, 9), new ItemStack(ModItems.tinIngot));
@@ -34,6 +38,7 @@ public class Recipes {
 
 
         //Blocks
-        GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(Items.iron_ingot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.copperIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.tinIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
     }
 }

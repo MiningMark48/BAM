@@ -127,10 +127,17 @@ public class ModItems {
     public static final Item nbFish = new ItemFish().setUnlocalizedName("nbFish").setTextureName(Reference.MOD_ID + ":nbFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item sFish = new ItemFish().setUnlocalizedName("sFish").setTextureName(Reference.MOD_ID + ":sFish").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
-    //Rods
+    //Fishing Rods
     public static final Item whiteRod = new ItemWhiteRod().setUnlocalizedName("whiteRod").setTextureName(Reference.MOD_ID + ":whiteRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
     public static final Item greyRod = new ItemGreyRod().setUnlocalizedName("greyRod").setTextureName(Reference.MOD_ID + ":greyRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
     public static final Item lightBlueRod = new ItemLightBlueRod().setUnlocalizedName("lightBlueRod").setTextureName(Reference.MOD_ID + ":lightBlueRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
+    //Rods and Reels
+    public static final Item whiteToolRod = new ItemRod().setUnlocalizedName("whiteToolRod").setTextureName(Reference.MOD_ID + ":whiteToolRod").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item greyToolRod = new ItemRod().setUnlocalizedName("greyToolRod").setTextureName(Reference.MOD_ID + ":greyToolRod").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item lightBlueToolRod = new ItemRod().setUnlocalizedName("lightBlueToolRod").setTextureName(Reference.MOD_ID + ":lightBlueToolRod").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item whiteReel = new ItemRod().setUnlocalizedName("whiteReel").setTextureName(Reference.MOD_ID + ":whiteReel").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item greyReel = new ItemRod().setUnlocalizedName("greyReel").setTextureName(Reference.MOD_ID + ":greyReel").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item lightBlueReel = new ItemRod().setUnlocalizedName("lightBlueReel").setTextureName(Reference.MOD_ID + ":lightBlueReel").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
     //Ingots/Nuggets
     public static final Item copperIngot = new ItemIngot().setUnlocalizedName("copperIngot").setTextureName(Reference.MOD_ID + ":copperIngot").setCreativeTab(CreativeTabBAM.BAM_Tab);
@@ -268,6 +275,12 @@ public class ModItems {
         GameRegistry.registerItem(whiteRod, "whiteRod");
         GameRegistry.registerItem(greyRod, "greyRod");
         GameRegistry.registerItem(lightBlueRod, "lightBlueRod");
+        GameRegistry.registerItem(whiteToolRod, "whiteToolRod");
+        GameRegistry.registerItem(greyToolRod, "greyToolRod");
+        GameRegistry.registerItem(lightBlueToolRod, "lightBlueToolRod");
+        GameRegistry.registerItem(whiteReel, "whiteReel");
+        GameRegistry.registerItem(greyReel, "greyReel");
+        GameRegistry.registerItem(lightBlueReel, "lightBlueReel");
 
         GameRegistry.registerItem(copperIngot, "copperIngot");
         GameRegistry.registerItem(tinIngot, "tinIngot");
