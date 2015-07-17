@@ -1,60 +1,36 @@
-[19:43:47] [main/INFO]: Setting user: Player334
-[19:44:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:46:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
-[19:46:40] [Sound Library Loader/INFO]: Sound engine started
-[19:47:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:47:37] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[19:47:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
-[19:48:03] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[19:48:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:48:10] [Sound Library Loader/INFO]: Sound engine started
-[19:49:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:49:38] [Server thread/INFO]: Generating keypair
-[19:49:46] [Server thread/INFO]: Preparing start region for level 0
-[19:49:48] [Server thread/INFO]: Preparing spawn area: 0%
-[19:49:49] [Server thread/INFO]: Preparing spawn area: 5%
-[19:49:52] [Server thread/INFO]: Preparing spawn area: 9%
-[19:49:54] [Server thread/INFO]: Preparing spawn area: 17%
-[19:49:55] [Server thread/INFO]: Preparing spawn area: 25%
-[19:49:56] [Server thread/INFO]: Preparing spawn area: 38%
-[19:49:57] [Server thread/INFO]: Preparing spawn area: 46%
-[19:49:58] [Server thread/INFO]: Preparing spawn area: 58%
-[19:49:59] [Server thread/INFO]: Preparing spawn area: 80%
-[19:50:00] [Server thread/INFO]: Preparing spawn area: 90%
-[19:50:05] [Server thread/INFO]: Changing view distance to 2, from 10
-[19:50:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4520ms behind, skipping 90 tick(s)
-[19:50:23] [Server thread/INFO]: Player334[local:E:1c2ea5bc] logged in with entity id 235 at (215.32435000680647, 4.407395402364938, -315.1277598607277)
-[19:50:23] [Server thread/INFO]: Player334 joined the game
-[19:52:03] [Server thread/INFO]: Saving and pausing game...
-[19:52:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:52:05] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:52:05] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:52:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 101971ms behind, skipping 2039 tick(s)
-[19:52:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3761ms behind, skipping 75 tick(s)
-[19:52:56] [Server thread/INFO]: [Player334: Set own game mode to Survival Mode]
-[19:52:56] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:53:02] [Server thread/INFO]: Saving and pausing game...
-[19:53:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:53:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:53:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:53:04] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16427ms behind, skipping 328 tick(s)
-[19:53:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3173ms behind, skipping 63 tick(s)
-[19:53:24] [Server thread/INFO]: [Player334: Given Hunger (ID 17) * 5 to Player334 for 5 seconds]
-[19:53:24] [Client thread/INFO]: [CHAT] Given Hunger (ID 17) * 5 to Player334 for 5 seconds
-[19:53:45] [Server thread/INFO]: [Player334: Given Hunger (ID 17) * 10 to Player334 for 10 seconds]
-[19:53:45] [Client thread/INFO]: [CHAT] Given Hunger (ID 17) * 10 to Player334 for 10 seconds
-[19:54:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 52915ms behind, skipping 1058 tick(s)
-[19:54:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11129ms behind, skipping 222 tick(s)
-[19:55:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 16390ms behind, skipping 327 tick(s)
-[19:55:10] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7654ms behind, skipping 153 tick(s)
-[19:55:13] [Server thread/INFO]: Saving and pausing game...
-[19:55:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:55:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:55:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:55:14] [Server thread/INFO]: Stopping server
-[19:55:14] [Server thread/INFO]: Saving players
-[19:55:14] [Server thread/INFO]: Saving worlds
-[19:55:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:55:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:55:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:55:20] [Client thread/INFO]: Stopping!
+[00:00:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10365ms behind, skipping 207 tick(s)
+[00:00:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7616ms behind, skipping 152 tick(s)
+[00:00:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5698ms behind, skipping 113 tick(s)
+[00:01:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 37099ms behind, skipping 741 tick(s)
+[00:01:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9600ms behind, skipping 192 tick(s)
+[00:02:10] [Server thread/INFO]: Saving and pausing game...
+[00:02:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:02:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:02:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:02:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 28237ms behind, skipping 564 tick(s)
+[00:02:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2060ms behind, skipping 41 tick(s)
+[00:04:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3939ms behind, skipping 78 tick(s)
+[00:05:23] [Server thread/INFO]: Saving and pausing game...
+[00:05:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:05:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:05:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:05:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13997ms behind, skipping 279 tick(s)
+[00:05:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2219ms behind, skipping 44 tick(s)
+[00:05:57] [Server thread/INFO]: Player685 has just earned the achievement [Taking Inventory]
+[00:05:57] [Client thread/INFO]: [CHAT] Player685 has just earned the achievement [Taking Inventory]
+[00:06:38] [Server thread/INFO]: Saving and pausing game...
+[00:06:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:06:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:45] [Server thread/INFO]: Saving and pausing game...
+[00:06:46] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:06:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:06:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 37346ms behind, skipping 746 tick(s)
+[00:06:52] [Server thread/INFO]: Stopping server
+[00:06:52] [Server thread/INFO]: Saving players
+[00:06:53] [Server thread/INFO]: Saving worlds
+[00:06:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:06:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:06:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:06:56] [Client thread/INFO]: Stopping!

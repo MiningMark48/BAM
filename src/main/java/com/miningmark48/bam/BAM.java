@@ -45,6 +45,10 @@ public class BAM {
     public void init(FMLInitializationEvent event){
         Recipes.init();
         OreDict.init();
+
+        proxy.registerRenderThings();
+        TileEntities.init();
+
         LogHelper.info("Init Complete!");
     }
 
