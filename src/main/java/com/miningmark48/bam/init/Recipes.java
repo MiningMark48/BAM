@@ -35,6 +35,8 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(ModItems.silverIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.silverNugget));
         GameRegistry.addRecipe(new ItemStack(ModItems.tungstenIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.tungstenNugget));
         GameRegistry.addRecipe(new ItemStack(ModItems.arsenicIngot), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.arsenicNugget));
+            //Food
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.cavierBowl, 2), new ItemStack(Items.bowl), new ItemStack(Items.fish));
             //Misc
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLine), "xxx", 'x', new ItemStack(Items.string));
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLine), "x", "x", "x", 'x', new ItemStack(Items.string));

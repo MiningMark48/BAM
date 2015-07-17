@@ -151,6 +151,9 @@ public class ModItems {
     public static final Item tungstenNugget = new ItemNugget().setUnlocalizedName("tungstenNugget").setTextureName(Reference.MOD_ID + ":tungstenNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item arsenicNugget = new ItemNugget().setUnlocalizedName("arsenicNugget").setTextureName(Reference.MOD_ID + ":arsenicNugget").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
+    //Fish
+    public static final Item cavierBowl = new ItemBAMFood(4, 1.0F, true).setUnlocalizedName("cavierBowl").setTextureName(Reference.MOD_ID + ":cavierBowl").setCreativeTab(CreativeTabBAM.BAM_Tab);
+
     //Misc
     public static final Item fishingLine = new ItemBAM().setUnlocalizedName("fishingLine").setTextureName(Reference.MOD_ID + ":fishingLine").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
@@ -295,6 +298,8 @@ public class ModItems {
         GameRegistry.registerItem(silverNugget, "silverNugget");
         GameRegistry.registerItem(tungstenNugget, "tungstenNugget");
         GameRegistry.registerItem(arsenicNugget, "arsenicNugget");
+
+        GameRegistry.registerItem(cavierBowl, "cavierBowl");
 
         GameRegistry.registerItem(fishingLine, "fishingLine");
     }
