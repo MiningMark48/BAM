@@ -45,6 +45,7 @@ public class FishWorkbenchCraftingManager {
         this.addRecipe(new ItemStack(ModItems.whiteRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.whiteToolRod, 'y', ModItems.whiteReel, 'z', ModItems.fishingLine});
         this.addRecipe(new ItemStack(ModItems.greyRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.greyToolRod, 'y', ModItems.greyReel, 'z', ModItems.fishingLine});
         this.addRecipe(new ItemStack(ModItems.lightBlueRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.lightBlueToolRod, 'y', ModItems.lightBlueReel, 'z', ModItems.fishingLine});
+        this.addRecipe(new ItemStack(ModItems.blackRod, 1), new Object[]{"x", "y", "z", 'x', ModItems.blackToolRod, 'y', ModItems.blackReel, 'z', ModItems.fishingLineStrong});
 
         Collections.sort(this.recipes, new FishWorkbenchRecipeSorter(this));
     }

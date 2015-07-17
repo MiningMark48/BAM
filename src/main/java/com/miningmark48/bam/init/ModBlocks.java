@@ -1,5 +1,6 @@
 package com.miningmark48.bam.init;
 
+import com.miningmark48.bam.block.BlockBAM;
 import com.miningmark48.bam.block.BlockFishWorkbench;
 import com.miningmark48.bam.block.BlockOres;
 import com.miningmark48.bam.creativetab.CreativeTabBAM;
@@ -9,6 +10,7 @@ import net.minecraft.block.Block;
 
 public class ModBlocks {
 
+    //Functioning Blocks
     public static final Block fishWorkbench = new BlockFishWorkbench().setBlockName("fishWorkbench").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":fishWorkbench");
 
     //Ores
@@ -18,15 +20,20 @@ public class ModBlocks {
     public static final Block tinOre = new BlockOres().setBlockName("tinOre").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":tinOre");
     public static final Block silverOre = new BlockOres().setBlockName("silverOre").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":silverOre");
 
+    //Misc
+    public static final Block machineBlock = new BlockBAM().setBlockName("machineBlock").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":machineBlock");
+
     public static void init() {
 
         GameRegistry.registerBlock(fishWorkbench, "fishWorkbench");
+
         GameRegistry.registerBlock(arsenicOre, "arsenicOre");
         GameRegistry.registerBlock(tungstenOre, "tungstenOre");
         GameRegistry.registerBlock(copperOre, "copperOre");
         GameRegistry.registerBlock(tinOre, "tinOre");
         GameRegistry.registerBlock(silverOre, "silverOre");
 
+        GameRegistry.registerBlock(machineBlock, "machineBlock");
     }
 
 }
