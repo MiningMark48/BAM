@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="en_US.lang" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="en_US.lang" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bam/lang/en_US.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1874" max-vertical-offset="2737">
-              <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.32894737" vertical-offset="1874" max-vertical-offset="2737">
+              <caret line="122" column="52" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityBlackHook.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EntityBlackHook.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miningmark48/bam/entity/EntityBlackHook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22857143" vertical-offset="6766" max-vertical-offset="7361">
-              <caret line="406" column="26" selection-start-line="406" selection-start-column="26" selection-end-line="406" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6766" max-vertical-offset="7361">
+              <caret line="412" column="27" selection-start-line="412" selection-start-column="27" selection-end-line="412" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,11 +160,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/renderer/RenderItemFishWorkbench.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/item/ItemBlackRod.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/bam/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/crafting/FishWorkbenchCraftingManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miningmark48/bam/entity/EntityBlackHook.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/bam/lang/en_US.lang" />
       </list>
     </option>
   </component>
@@ -1221,14 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bam/lang/en_US.lang">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1874" max-vertical-offset="2737">
-          <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miningmark48/bam/model/ModelFishWorkbench.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6512821" vertical-offset="894" max-vertical-offset="1479">
@@ -1297,11 +1289,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miningmark48/bam/entity/EntityBlackHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22857143" vertical-offset="6766" max-vertical-offset="7361">
-          <caret line="406" column="26" selection-start-line="406" selection-start-column="26" selection-end-line="406" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6766" max-vertical-offset="7361">
+          <caret line="412" column="27" selection-start-line="412" selection-start-column="27" selection-end-line="412" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/bam/lang/en_US.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32894737" vertical-offset="1874" max-vertical-offset="2737">
+          <caret line="122" column="52" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
