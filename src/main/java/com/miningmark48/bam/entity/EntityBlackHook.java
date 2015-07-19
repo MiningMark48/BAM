@@ -388,7 +388,7 @@ public class EntityBlackHook extends EntityFishHook{
     public ItemStack getFishingResult()
     {
         Random rand = new Random();
-        int x = rand.nextInt(9) + 1;
+        int x = rand.nextInt(15) + 1;
 
         if (x == 1){
             return new ItemStack(ModItems.cbFish);
@@ -408,6 +408,18 @@ public class EntityBlackHook extends EntityFishHook{
             return new ItemStack(ModItems.nbFish);
         }else if (x == 9){
             return new ItemStack(ModItems.sFish);
+        }else if (x == 10){
+            return new ItemStack(ModItems.psFish2);
+        }else if (x == 11){
+            return new ItemStack(ModItems.pmFish);
+        }else if (x == 12){
+            return new ItemStack(ModItems.pmvFish);
+        }else if (x == 13){
+            return new ItemStack(ModItems.poFish);
+        }else if (x == 14){
+            return new ItemStack(ModItems.poFish2);
+        }else if (x == 15){
+            return new ItemStack(ModItems.hcFish);
         }
         return new ItemStack(Items.fish);
     }
