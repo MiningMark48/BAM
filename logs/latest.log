@@ -1,7 +1,37 @@
-[18:14:26] [main/INFO]: Setting user: Player476
-[18:14:47] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:15:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Better Aquatics Mod
-[18:15:51] [Sound Library Loader/INFO]: Sound engine started
-[18:16:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:16:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:19:13] [Client thread/INFO]: Stopping!
+[01:02:37] [main/INFO]: Setting user: Player974
+[01:02:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:03:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
+[01:03:47] [Sound Library Loader/INFO]: Sound engine started
+[01:04:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:04:10] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[01:04:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Aquatics Mod
+[01:04:16] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[01:04:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:04:19] [Sound Library Loader/INFO]: Sound engine started
+[01:04:48] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:04:48] [Server thread/INFO]: Generating keypair
+[01:04:52] [Server thread/INFO]: Preparing start region for level 0
+[01:04:54] [Server thread/INFO]: Preparing spawn area: 0%
+[01:04:55] [Server thread/INFO]: Preparing spawn area: 7%
+[01:04:56] [Server thread/INFO]: Preparing spawn area: 18%
+[01:04:57] [Server thread/INFO]: Preparing spawn area: 35%
+[01:04:58] [Server thread/INFO]: Preparing spawn area: 56%
+[01:04:59] [Server thread/INFO]: Preparing spawn area: 95%
+[01:05:00] [Server thread/INFO]: Changing view distance to 2, from 10
+[01:05:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4648ms behind, skipping 92 tick(s)
+[01:05:06] [Server thread/INFO]: Player974[local:E:84d84861] logged in with entity id 225 at (219.24348171789254, 4.0, -319.3417618823908)
+[01:05:06] [Server thread/INFO]: Player974 joined the game
+[01:05:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 23018ms behind, skipping 460 tick(s)
+[01:05:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2686ms behind, skipping 53 tick(s)
+[01:06:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2696ms behind, skipping 53 tick(s)
+[01:06:59] [Server thread/INFO]: Saving and pausing game...
+[01:06:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:07:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:07:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:07:00] [Server thread/INFO]: Stopping server
+[01:07:00] [Server thread/INFO]: Saving players
+[01:07:01] [Server thread/INFO]: Saving worlds
+[01:07:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:07:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:07:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:07:04] [Client thread/INFO]: Stopping!

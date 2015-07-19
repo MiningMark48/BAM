@@ -1,6 +1,7 @@
 package com.miningmark48.bam.init;
 
 import com.miningmark48.bam.block.BlockBAM;
+import com.miningmark48.bam.block.BlockBreeder;
 import com.miningmark48.bam.block.BlockFishWorkbench;
 import com.miningmark48.bam.block.BlockOres;
 import com.miningmark48.bam.creativetab.CreativeTabBAM;
@@ -12,6 +13,7 @@ public class ModBlocks {
 
     //Functioning Blocks
     public static final Block fishWorkbench = new BlockFishWorkbench().setBlockName("fishWorkbench").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":fishWorkbench");
+    public static final Block breeder = new BlockBreeder().setBlockName("breeder").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":breeder");
 
     //Ores
     public static final Block arsenicOre = new BlockOres().setBlockName("arsenicOre").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":arsenicOre");
@@ -26,6 +28,7 @@ public class ModBlocks {
     public static void init() {
 
         GameRegistry.registerBlock(fishWorkbench, "fishWorkbench");
+        GameRegistry.registerBlock(breeder, "breeder");
 
         GameRegistry.registerBlock(arsenicOre, "arsenicOre");
         GameRegistry.registerBlock(tungstenOre, "tungstenOre");

@@ -118,10 +118,10 @@ item.ioFish2.name=Isurus Oxyrinchus
 item.nbFish.name=Negaprion Brevirostris
 item.sFish.name=Sphyrnidae
 
-item.whiteRod.name=White Fishing Rod
-item.greyRod.name=Grey Fishing Rod
-item.lightBlueRod.name=Light Blue Fishing Rod
-item.blackRod.name=Black Fishing Rod
+item.whiteRod.name=Tetrarian White Fishing Rod
+item.greyRod.name=Cichlidian Grey Fishing Rod
+item.lightBlueRod.name=Bejeweled Light Blue Fishing Rod
+item.blackRod.name=Oceanic Black Fishing Rod
 item.whiteToolRod.name=White Rod
 item.greyToolRod.name=Grey Rod
 item.lightBlueToolRod.name=Light Blue Rod
@@ -130,7 +130,6 @@ item.whiteReel.name=White Reel
 item.greyReel.name=Grey Reel
 item.lightBlueReel.name=Light Blue Reel
 item.blackReel.name=Black Reel
-
 item.copperIngot.name=Copper Ingot
 item.tinIngot.name=Tin Ingot
 item.silverIngot.name=Silver Ingot
@@ -141,13 +140,11 @@ item.tinNugget.name=Tin Nugget
 item.silverNugget.name=Silver Nugget
 item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
-
 item.cavierBowl.name=Bowl of Cavier
-
 item.fishingLine.name=Fishing Line
 
-
-tile.fishWorkbench.name=Fisherman's Workbench [WIP]
+tile.fishWorkbench.name=Fisherman's Workbench
+tile.breeder.name=Fish Breeder
 tile.arsenicOre.name=Arsenic Ore
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore

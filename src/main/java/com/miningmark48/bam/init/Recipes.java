@@ -44,6 +44,8 @@ public class Recipes {
             //Misc
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLine), "xxx", 'x', new ItemStack(Items.string));
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLine), "x", "x", "x", 'x', new ItemStack(Items.string));
+        GameRegistry.addRecipe(new ItemStack(ModItems.fishingLineStrong), "xxx", 'x', new ItemStack(ModItems.fishingLine));
+        GameRegistry.addRecipe(new ItemStack(ModItems.fishingLineStrong), "x", "x", "x", 'x', new ItemStack(ModItems.fishingLine));
 
 
         //Blocks
