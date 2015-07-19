@@ -130,7 +130,6 @@ item.whiteReel.name=White Reel
 item.greyReel.name=Grey Reel
 item.lightBlueReel.name=Light Blue Reel
 item.blackReel.name=Black Reel
-
 item.copperIngot.name=Copper Ingot
 item.tinIngot.name=Tin Ingot
 item.silverIngot.name=Silver Ingot
@@ -141,11 +140,8 @@ item.tinNugget.name=Tin Nugget
 item.silverNugget.name=Silver Nugget
 item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
-
 item.cavierBowl.name=Bowl of Cavier
-
 item.fishingLine.name=Fishing Line
-
 
 tile.fishWorkbench.name=Fisherman's Workbench [WIP]
 tile.arsenicOre.name=Arsenic Ore

@@ -53,7 +53,9 @@ public class Recipes {
 
             //Misc
         GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock), "aba", "b b", "aba", 'a', new ItemStack(ModItems.tinIngot), 'b', new ItemStack(ModItems.copperIngot));
-        GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock, 4), "aba", "bcb", "aba", 'a', new ItemStack(ModItems.tinIngot), 'b', new ItemStack(ModItems.copperIngot), 'c', new ItemStack(ModItems.tungstenIngot));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock), "aba", "b b", "aba", 'a', new ItemStack(ModItems.copperIngot), 'b', new ItemStack(ModItems.tinIngot));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock, 4), "aba", "bcb", "aba", 'a', new ItemStack(ModItems.tinIngot), 'b', new ItemStack(ModItems.copperIngot), 'c', new ItemStack(Blocks.iron_block)); //To be changed to tungsten block
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock, 4), "aba", "bcb", "aba", 'a', new ItemStack(ModItems.copperIngot), 'b', new ItemStack(ModItems.tinIngot), 'c', new ItemStack(Blocks.iron_block)); //To be changed to tungsten block
 
     }
 }
