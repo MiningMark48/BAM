@@ -46,12 +46,15 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLine), "x", "x", "x", 'x', new ItemStack(Items.string));
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLineStrong), "xxx", 'x', new ItemStack(ModItems.fishingLine));
         GameRegistry.addRecipe(new ItemStack(ModItems.fishingLineStrong), "x", "x", "x", 'x', new ItemStack(ModItems.fishingLine));
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.string, 3), new ItemStack(ModItems.fishingLine));
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.string, 6), new ItemStack(ModItems.fishingLineStrong));
 
 
         //Blocks
             //Functioning
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.copperIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.tinIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.breeder), "aba", "bcb", "dbd", 'a', new ItemStack(Items.fish), 'b', new ItemStack(ModItems.tungstenIngot), 'c', new ItemStack(ModBlocks.machineBlock), 'd', new ItemStack(ModItems.silverIngot));
 
             //Misc
         GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock), "aba", "b b", "aba", 'a', new ItemStack(ModItems.tinIngot), 'b', new ItemStack(ModItems.copperIngot));

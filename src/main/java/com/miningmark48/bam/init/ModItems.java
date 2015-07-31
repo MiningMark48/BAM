@@ -128,10 +128,10 @@ public class ModItems {
     public static final Item sFish = new ItemFish().setUnlocalizedName("sFish").setTextureName(Reference.MOD_ID + ":sFish");
 
     //Fishing Rods
-    public static final Item whiteRod = new ItemWhiteRod().setUnlocalizedName("whiteRod").setTextureName(Reference.MOD_ID + ":whiteRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
-    public static final Item greyRod = new ItemGreyRod().setUnlocalizedName("greyRod").setTextureName(Reference.MOD_ID + ":greyRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
+    public static final Item whiteRod = new ItemWhiteRod().setUnlocalizedName("whiteRod").setTextureName(Reference.MOD_ID + ":whiteRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(128).setMaxStackSize(1);
+    public static final Item greyRod = new ItemGreyRod().setUnlocalizedName("greyRod").setTextureName(Reference.MOD_ID + ":greyRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(128).setMaxStackSize(1);
     public static final Item lightBlueRod = new ItemLightBlueRod().setUnlocalizedName("lightBlueRod").setTextureName(Reference.MOD_ID + ":lightBlueRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
-    public static final Item blackRod = new ItemBlackRod().setUnlocalizedName("blackRod").setTextureName(Reference.MOD_ID + ":blackRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(64).setMaxStackSize(1);
+    public static final Item blackRod = new ItemBlackRod().setUnlocalizedName("blackRod").setTextureName(Reference.MOD_ID + ":blackRod").setCreativeTab(CreativeTabBAM.BAM_Tab).setMaxDamage(128).setMaxStackSize(1);
     //Rods and Reels
     public static final Item whiteToolRod = new ItemRod().setUnlocalizedName("whiteToolRod").setTextureName(Reference.MOD_ID + ":whiteToolRod").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item greyToolRod = new ItemRod().setUnlocalizedName("greyToolRod").setTextureName(Reference.MOD_ID + ":greyToolRod").setCreativeTab(CreativeTabBAM.BAM_Tab);

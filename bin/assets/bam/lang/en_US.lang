@@ -142,9 +142,10 @@ item.tungstenNugget.name=Tungsten Nugget
 item.arsenicNugget.name=Arsenic Nugget
 item.cavierBowl.name=Bowl of Cavier
 item.fishingLine.name=Fishing Line
+item.fishingLineStrong.name=Strengthened Fishing Line
 
 tile.fishWorkbench.name=Fisherman's Workbench
-tile.breeder.name=Fish Breeder
+tile.breeder.name=Fish Breeder [WIP]
 tile.arsenicOre.name=Arsenic Ore
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore

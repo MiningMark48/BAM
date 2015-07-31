@@ -16,6 +16,7 @@ public class BlockFishWorkbench extends BlockContainer {
 
     public BlockFishWorkbench(){
         super(Material.wood);
+        this.setBlockBounds(0.0625F, 0.0F, 0.0625F, 0.9375F, 0.875F, 0.9375F);
     }
 
     public int getRenderType(){
@@ -28,6 +29,14 @@ public class BlockFishWorkbench extends BlockContainer {
 
     public boolean renderAsNormalBlock(){
         return false;
+    }
+
+    public boolean canPlaceBlockAt(World world, int x, int y, int z){
+        if (world.getBlock(x, y-1, z).getMaterial().isSolid() == true){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ){

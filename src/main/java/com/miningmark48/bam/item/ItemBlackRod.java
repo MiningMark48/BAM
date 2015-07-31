@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFishingRod;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
@@ -25,11 +26,15 @@ public class ItemBlackRod extends ItemFishingRod {
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean isHeld) {
         list.add("Catches Sharks and Sting Rays");
-        list.add("Needs a stronger fishing line though...");
+        list.add(" ");
+        list.add(EnumChatFormatting.ITALIC + "The strength of a regular line is strong, ");
+        list.add(EnumChatFormatting.ITALIC + "but not strong enough...");
     }
 
     @Override
     public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
+
+        stack.damageItem(1, player);
 
         if (player.fishEntity != null) {
             int i = player.fishEntity.func_146034_e();

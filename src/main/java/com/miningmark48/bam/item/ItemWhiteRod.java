@@ -31,6 +31,8 @@ public class ItemWhiteRod extends ItemFishingRod {
     @Override
     public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
 
+        stack.damageItem(1, player);
+
         if (player.fishEntity != null) {
             int i = player.fishEntity.func_146034_e();
         } else {
