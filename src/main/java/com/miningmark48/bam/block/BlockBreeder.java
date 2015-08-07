@@ -23,7 +23,7 @@ public class BlockBreeder extends BlockBAM{
     }
 
     @Override
-    public void registerBlockIcons(IIconRegister reg){
+      public void registerBlockIcons(IIconRegister reg){
         for (int i = 0; i < 6; i++){
             if (i == 1 || i == 0){
                 this.icons[i] = reg.registerIcon(this.textureName);
@@ -40,7 +40,8 @@ public class BlockBreeder extends BlockBAM{
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ){
         if (!player.isSneaking() && !world.isRemote){
-            player.addChatComponentMessage(new ChatComponentTranslation(EnumChatFormatting.DARK_RED + "This is not yet working!"));
+            player.addChatComponentMessage(new ChatComponentTranslation("Recipes: https://github.com/MiningMark48/BAM/wiki/Blocks#breeder (NEI Support Coming Soon)"));
+            player.openGui(Reference.MOD_ID, GUIs.guiIDBreeder, world, x, y, z);
             return true;
         }else{
             return false;
