@@ -19,7 +19,7 @@ public class ContainerBreeder extends Container {
     private int posZ;
 
     public ContainerBreeder(InventoryPlayer player, World world, int x, int y, int z){
-        craftMatrix = new InventoryCrafting(this, 1,  3);
+        craftMatrix = new InventoryCrafting(this, 1, 3);
         craftResult = new InventoryCraftResult();
         worldObj = world;
         this.posX = x;

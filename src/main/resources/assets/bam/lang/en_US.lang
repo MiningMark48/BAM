@@ -146,6 +146,7 @@ item.fishingLineStrong.name=Strengthened Fishing Line
 
 tile.fishWorkbench.name=Fisherman's Workbench
 tile.breeder.name=Fish Breeder [WIP]
+tile.fishItemMachine.name=Specimen Catalyzer [WIP]
 tile.arsenicOre.name=Arsenic Ore
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore

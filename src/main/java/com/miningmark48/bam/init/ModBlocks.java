@@ -1,9 +1,6 @@
 package com.miningmark48.bam.init;
 
-import com.miningmark48.bam.block.BlockBAM;
-import com.miningmark48.bam.block.BlockBreeder;
-import com.miningmark48.bam.block.BlockFishWorkbench;
-import com.miningmark48.bam.block.BlockOres;
+import com.miningmark48.bam.block.*;
 import com.miningmark48.bam.creativetab.CreativeTabBAM;
 import com.miningmark48.bam.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -14,6 +11,7 @@ public class ModBlocks {
     //Functioning Blocks
     public static final Block fishWorkbench = new BlockFishWorkbench().setBlockName("fishWorkbench").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":fishWorkbench");
     public static final Block breeder = new BlockBreeder().setBlockName("breeder").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":breeder");
+    public static final Block fishItemMachine = new BlockFishItemMachine().setBlockName("fishItemMachine").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":fishItemMachine");
 
     //Ores
     public static final Block arsenicOre = new BlockOres().setBlockName("arsenicOre").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":arsenicOre");
@@ -29,6 +27,7 @@ public class ModBlocks {
 
         GameRegistry.registerBlock(fishWorkbench, "fishWorkbench");
         GameRegistry.registerBlock(breeder, "breeder");
+        GameRegistry.registerBlock(fishItemMachine, "fishItemMachine");
 
         GameRegistry.registerBlock(arsenicOre, "arsenicOre");
         GameRegistry.registerBlock(tungstenOre, "tungstenOre");
