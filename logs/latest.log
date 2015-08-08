@@ -328,3 +328,15 @@ java.io.FileNotFoundException: bam:textures/blocks/fishWorkbench.png
 [01:33:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
 [01:33:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
 [01:33:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:35:47] [Client thread/INFO]: [CHAT] Recipes: https://github.com/MiningMark48/BAM/wiki/Blocks#breeder (NEI Support Coming Soon)
+[01:35:58] [Server thread/INFO]: Saving and pausing game...
+[01:35:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:35:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:35:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:36:02] [Server thread/INFO]: Stopping server
+[01:36:02] [Server thread/INFO]: Saving players
+[01:36:05] [Server thread/INFO]: Saving worlds
+[01:36:05] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:36:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:43:52] [Client thread/INFO]: Stopping!

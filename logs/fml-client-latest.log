@@ -3985,3 +3985,39 @@ java.lang.Throwable
 [01:32:06] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
 [01:32:49] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
 [01:33:01] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[01:35:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[01:36:00] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[01:36:00] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[01:36:01] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[01:36:01] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[01:36:01] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[01:36:01] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[01:36:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppingEvent to mod CodeChickenCore
+[01:36:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppingEvent to mod CodeChickenCore
+[01:36:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppingEvent to mod NotEnoughItems
+[01:36:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppingEvent to mod NotEnoughItems
+[01:36:02] [Server thread/TRACE] [bam/bam]: Sending event FMLServerStoppingEvent to mod bam
+[01:36:02] [Server thread/TRACE] [bam/bam]: Sent event FMLServerStoppingEvent to mod bam
+[01:36:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[01:36:09] [Server thread/INFO] [FML/]: Unloading dimension 0
+[01:36:09] [Server thread/INFO] [FML/]: Unloading dimension -1
+[01:36:09] [Server thread/INFO] [FML/]: Unloading dimension 1
+[01:36:09] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[01:38:17] [Server thread/INFO] [FML/]: Applying holder lookups
+[01:38:17] [Server thread/INFO] [FML/]: Holder lookups applied
+[01:38:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[01:38:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[01:38:17] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[01:38:17] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[01:38:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[01:38:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[01:38:17] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[01:38:17] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[01:38:17] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppedEvent to mod NotEnoughItems
+[01:38:17] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppedEvent to mod NotEnoughItems
+[01:38:17] [Server thread/TRACE] [bam/bam]: Sending event FMLServerStoppedEvent to mod bam
+[01:38:17] [Server thread/TRACE] [bam/bam]: Sent event FMLServerStoppedEvent to mod bam
+[01:43:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[01:43:53] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[01:43:54] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[01:43:54] [Client thread/INFO] [STDOUT/]: [paulscode.sound.SoundSystemLogger:message:69]: 

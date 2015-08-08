@@ -55,6 +55,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.copperIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.fishWorkbench), "ded", "bcb", "a a", 'a', new ItemStack(Items.stick), 'b', new ItemStack(ModItems.tinIngot), 'c', new ItemStack(Blocks.crafting_table), 'd', new ItemStack(Blocks.planks), 'e', new ItemStack(Items.fish));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.breeder), "aba", "bcb", "dbd", 'a', new ItemStack(Items.fish), 'b', new ItemStack(ModItems.tungstenIngot), 'c', new ItemStack(ModBlocks.machineBlock), 'd', new ItemStack(ModItems.silverIngot));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.fishItemMachine), "ebe", "dad", "cec", 'a', new ItemStack(ModBlocks.machineBlock), 'b', new ItemStack(Items.diamond), 'c', new ItemStack(ModItems.copperIngot), 'd', new ItemStack(ModItems.arsenicIngot), 'e', new ItemStack(ModItems.tungstenIngot));
 
             //Misc
         GameRegistry.addRecipe(new ItemStack(ModBlocks.machineBlock), "aba", "b b", "aba", 'a', new ItemStack(ModItems.tinIngot), 'b', new ItemStack(ModItems.copperIngot));
