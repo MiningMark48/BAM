@@ -1,9 +1,12 @@
 package com.miningmark48.bam.init;
 
+import com.miningmark48.bam.StructureGen.StructureFishHut;
+import com.miningmark48.bam.utility.LogHelper;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
@@ -44,6 +47,20 @@ public class WorldGen implements IWorldGenerator {
         generateOre(ModBlocks.silverOre, world, rand, x, z, 2, 8, 40, 0, 20, Blocks.stone);
         generateOre(ModBlocks.tungstenOre, world, rand, x, z, 2, 5, 35, 0, 25, Blocks.stone);
         generateOre(ModBlocks.arsenicOre, world, rand, x, z, 2, 10, 30, 10, 20, Blocks.stone);
+
+        BiomeGenBase biome = world.getWorldChunkManager().getBiomeGenAt(x, z);
+
+        if (biome == BiomeGenBase.plains || biome == BiomeGenBase.ocean){
+            for (int a = 0; a < 1; a++){
+                int i = x + rand.nextInt(512);
+                int j = z + rand.nextInt(512);
+                int k = world.getHeightValue(i, j);
+
+                new StructureFishHut().generate(world, rand, i, k, j);
+
+            }
+        }
+
     }
 
 
@@ -52,21 +69,6 @@ public class WorldGen implements IWorldGenerator {
 
     }
 
-    /**
-     * Adds an Ore Spawn to Minecraft. Simply register all Ores to spawn with this method in your Generation method in your IWorldGeneration extending Class
-     *
-     * @param The Block to spawn
-     * @param The World to spawn in
-     * @param A Random object for retrieving random positions within the world to spawn the Block
-     * @param An int for passing the X-Coordinate for the Generation method
-     * @param An int for passing the Z-Coordinate for the Generation method
-     * @param An int for setting the maximum X-Coordinate values for spawning on the X-Axis on a Per-Chunk basis
-     * @param An int for setting the maximum Z-Coordinate values for spawning on the Z-Axis on a Per-Chunk basis
-     * @param An int for setting the maximum size of a vein
-     * @param An int for the Number of chances available for the Block to spawn per-chunk
-     * @param An int for the minimum Y-Coordinate height at which this block may spawn
-     * @param An int for the maximum Y-Coordinate height at which this block may spawn
-     **/
     public void generateOre(Block block, World world, Random random, int chunkX, int chunkZ, int minVeinSize, int maxVeinSize, int chance, int minY, int maxY, Block generateIn)
     {
         int veinSize = minVeinSize + random.nextInt(maxVeinSize - minVeinSize);
@@ -77,7 +79,6 @@ public class WorldGen implements IWorldGenerator {
             int yRand = random.nextInt(heightRange) + minY;
             int zRand = chunkZ * 16 + random.nextInt(16);
             gen.generate(world, random, xRand, yRand, zRand);
-            //LogHelper.info("Pearcel Ore at " + xRand + " " + yRand + " " + zRand);
         }
     }
 

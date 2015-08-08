@@ -42,6 +42,8 @@ public class BreederCraftingManager {
         //Add Recipes Here
         this.addRecipe(new ItemStack(Items.nether_star, 1), new Object[]{"x", "y", 'x', Blocks.diamond_block, 'y', Blocks.emerald_block});
         this.addShapelessRecipe(new ItemStack(ModItems.aaFish3, 1), new Object[]{ModItems.aaFish, ModItems.aaFish2});
+        this.addShapelessRecipe(new ItemStack(ModItems.anFish, 1), new Object[]{ModItems.aoFish, ModItems.acFish});
+        this.addShapelessRecipe(new ItemStack(ModItems.asFish3, 1), new Object[]{ModItems.arFish2, ModItems.arFish3});
 
         Collections.sort(this.recipes, new BreederRecipeSorter(this));
     }
