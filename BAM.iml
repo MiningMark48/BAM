@@ -680,6 +680,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="CodeChickenCore-1.7.10-1.0.4.29-dev" level="project" />
+    <orderEntry type="library" name="NotEnoughItems-1.7.10-1.0.3.74-dev" level="project" />
   </component>
 </module>
 
