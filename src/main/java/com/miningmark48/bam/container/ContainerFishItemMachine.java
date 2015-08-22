@@ -1,6 +1,6 @@
 package com.miningmark48.bam.container;
 
-import com.miningmark48.bam.crafting.BreederCraftingManager;
+import com.miningmark48.bam.crafting.FishItemMachineCraftingManager;
 import com.miningmark48.bam.init.ModBlocks;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -46,7 +46,7 @@ public class ContainerFishItemMachine extends Container{
 
     public void onCraftMatrixChanged(IInventory player)
     {
-        craftResult.setInventorySlotContents(0, BreederCraftingManager.getInstance().findMatchingRecipe(craftMatrix, worldObj));
+        craftResult.setInventorySlotContents(0, FishItemMachineCraftingManager.getInstance().findMatchingRecipe(craftMatrix, worldObj));
     }
 
     @Override

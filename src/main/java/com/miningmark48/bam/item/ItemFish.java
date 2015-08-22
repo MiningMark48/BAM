@@ -267,6 +267,8 @@ public class ItemFish extends ItemBAM{
             list.add("HammerHead Shark");
         }
 
+        list.add(this.getUnlocalizedName().substring(5));
+
 
     }
 
