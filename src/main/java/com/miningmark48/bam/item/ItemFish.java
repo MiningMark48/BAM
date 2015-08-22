@@ -7,6 +7,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ChatComponentTranslation;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -267,7 +268,8 @@ public class ItemFish extends ItemBAM{
             list.add("HammerHead Shark");
         }
 
-        list.add(this.getUnlocalizedName().substring(5));
+        list.add("");
+        list.add(EnumChatFormatting.BLUE + this.getUnlocalizedName().substring(5));
 
 
     }
