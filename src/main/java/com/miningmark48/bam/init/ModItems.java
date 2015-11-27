@@ -160,10 +160,12 @@ public class ModItems {
     //Misc
     public static final Item fishingLine = new ItemBAM().setUnlocalizedName("fishingLine").setTextureName(Reference.MOD_ID + ":fishingLine").setCreativeTab(CreativeTabBAM.BAM_Tab);
     public static final Item fishingLineStrong = new ItemBAM().setUnlocalizedName("fishingLineStrong").setTextureName(Reference.MOD_ID + ":fishingLineStrong").setCreativeTab(CreativeTabBAM.BAM_Tab);
+    public static final Item plasticSheeting = new ItemBAM().setUnlocalizedName("plasticSheeting").setTextureName(Reference.MOD_ID + ":plasticSheeting").setCreativeTab(CreativeTabBAM.BAM_Tab);
 
 
     public static void init() {
 
+        //Fish
         GameRegistry.registerItem(aaFish, "aaFish");
         GameRegistry.registerItem(aaFish2, "aaFish2");
         GameRegistry.registerItem(aaFish3, "aaFish3");
@@ -310,6 +312,8 @@ public class ModItems {
 
         GameRegistry.registerItem(fishingLine, "fishingLine");
         GameRegistry.registerItem(fishingLineStrong, "fishingLineStrong");
+        GameRegistry.registerItem(plasticSheeting, "plasticSheeting");
+
     }
 
 }

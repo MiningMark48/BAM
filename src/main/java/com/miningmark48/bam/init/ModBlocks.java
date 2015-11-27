@@ -22,6 +22,7 @@ public class ModBlocks {
 
     //Misc
     public static final Block machineBlock = new BlockBAM().setBlockName("machineBlock").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":machineBlock");
+    public static final Block plasticBlock = new BlockBAM().setBlockName("plasticBlock").setCreativeTab(CreativeTabBAM.BAM_Tab).setBlockTextureName(Reference.MOD_ID + ":plasticBlock").setHardness(0.75F).setResistance(0.1F);
 
     public static void init() {
 
@@ -36,6 +37,7 @@ public class ModBlocks {
         GameRegistry.registerBlock(silverOre, "silverOre");
 
         GameRegistry.registerBlock(machineBlock, "machineBlock");
+        GameRegistry.registerBlock(plasticBlock, "plasticBlock");
     }
 
 }

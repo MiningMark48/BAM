@@ -143,6 +143,7 @@ item.arsenicNugget.name=Arsenic Nugget
 item.cavierBowl.name=Bowl of Cavier
 item.fishingLine.name=Fishing Line
 item.fishingLineStrong.name=Strengthened Fishing Line
+item.plasticSheeting.name=Plastic Sheeting
 
 tile.fishWorkbench.name=Fisherman's Workbench
 tile.breeder.name=Fish Breeder [WIP]
@@ -153,3 +154,4 @@ tile.tinOre.name=Tin Ore
 tile.tungstenOre.name=Tungsten Ore
 tile.silverOre.name=Silver Ore
 tile.machineBlock.name=Machine Block Casing
+tile.plasticBlock.name=Block of Plastic
