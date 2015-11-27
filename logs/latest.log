@@ -1,8 +1,8 @@
-[22:38:00] [main/INFO]: Setting user: Player843
-[22:38:01] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:38:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Better Aquatics Mod
-[22:38:07] [Sound Library Loader/INFO]: Sound engine started
-[22:38:08] [Client thread/ERROR]: Using missing texture, unable to load bam:textures/blocks/fishWorkbench.png
+[22:39:55] [main/INFO]: Setting user: Player546
+[22:39:57] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:40:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Better Aquatics Mod
+[22:40:03] [Sound Library Loader/INFO]: Sound engine started
+[22:40:05] [Client thread/ERROR]: Using missing texture, unable to load bam:textures/blocks/fishWorkbench.png
 java.io.FileNotFoundException: bam:textures/blocks/fishWorkbench.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,11 +22,11 @@ java.io.FileNotFoundException: bam:textures/blocks/fishWorkbench.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
 	at GradleStart.main(Unknown Source) [start/:?]
-[22:38:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:38:09] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[22:38:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Better Aquatics Mod
-[22:38:10] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
-[22:38:10] [Client thread/ERROR]: Using missing texture, unable to load bam:textures/blocks/fishWorkbench.png
+[22:40:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:40:05] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[22:40:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Better Aquatics Mod
+[22:40:06] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[22:40:07] [Client thread/ERROR]: Using missing texture, unable to load bam:textures/blocks/fishWorkbench.png
 java.io.FileNotFoundException: bam:textures/blocks/fishWorkbench.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -49,22 +49,48 @@ java.io.FileNotFoundException: bam:textures/blocks/fishWorkbench.png
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
 	at GradleStart.main(Unknown Source) [start/:?]
-[22:38:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:38:11] [Sound Library Loader/INFO]: Sound engine started
-[22:38:19] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:38:19] [Server thread/INFO]: Generating keypair
-[22:38:19] [Server thread/INFO]: Preparing start region for level 0
-[22:38:20] [Server thread/INFO]: Changing view distance to 8, from 10
-[22:38:21] [Server thread/INFO]: Player843[local:E:380caabe] logged in with entity id 215 at (209.82649086678444, 4.0, -321.97091196979414)
-[22:38:21] [Server thread/INFO]: Player843 joined the game
-[22:38:35] [Server thread/INFO]: Saving and pausing game...
-[22:38:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:38:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:38:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:38:36] [Server thread/INFO]: Stopping server
-[22:38:36] [Server thread/INFO]: Saving players
-[22:38:36] [Server thread/INFO]: Saving worlds
-[22:38:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:38:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:38:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:38:39] [Client thread/INFO]: Stopping!
+[22:40:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:40:08] [Sound Library Loader/INFO]: Sound engine started
+[22:40:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:40:24] [Server thread/INFO]: Generating keypair
+[22:40:24] [Server thread/INFO]: Preparing start region for level 0
+[22:40:25] [Server thread/INFO]: Changing view distance to 8, from 10
+[22:40:26] [Server thread/INFO]: Player546[local:E:e71f7da4] logged in with entity id 215 at (211.75268736305466, 4.0, -322.166068610864)
+[22:40:26] [Server thread/INFO]: Player546 joined the game
+[22:40:30] [Server thread/INFO]: Saving and pausing game...
+[22:40:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:40:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:40:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:41:12] [Server thread/INFO]: Player546 has just earned the achievement [Taking Inventory]
+[22:41:12] [Client thread/INFO]: [CHAT] Player546 has just earned the achievement [Taking Inventory]
+[22:41:13] [Server thread/INFO]: Saving and pausing game...
+[22:41:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:41:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:41:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:41:14] [Server thread/INFO]: Saving and pausing game...
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:41:14] [Server thread/INFO]: Stopping server
+[22:41:14] [Server thread/INFO]: Saving players
+[22:41:14] [Server thread/INFO]: Saving worlds
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:41:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:41:17] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:41:17] [Server thread/INFO]: Generating keypair
+[22:41:17] [Server thread/INFO]: Preparing start region for level 0
+[22:41:17] [Server thread/INFO]: Changing view distance to 8, from 10
+[22:41:18] [Server thread/INFO]: Player546[local:E:3468426c] logged in with entity id 35506 at (1307.6965348372958, 8.991713843624442, -206.82967249478344)
+[22:41:18] [Server thread/INFO]: Player546 joined the game
+[22:41:51] [Server thread/INFO]: Saving and pausing game...
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/Overworld
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/Nether
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/The End
+[22:41:51] [Server thread/INFO]: Stopping server
+[22:41:51] [Server thread/INFO]: Saving players
+[22:41:51] [Server thread/INFO]: Saving worlds
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/Overworld
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/Nether
+[22:41:51] [Server thread/INFO]: Saving chunks for level 'Structure Gen'/The End
+[22:41:52] [Client thread/INFO]: Stopping!
